@@ -39,7 +39,9 @@ class Menu extends React.Component {
           overflow: 'auto',
         }}>
         {contents}
+        <div class = "bottom-fixed"></div>
       </ul>
+      <div class = "bottom-fixed"></div>
     );
   }
 }
